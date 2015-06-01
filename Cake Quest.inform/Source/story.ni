@@ -47,9 +47,9 @@ Before taking the bar of soap:
 	say "Soap tastes awful. It has no place in your cake.";
 	stop the action;
 
-The Backyard is south of the Living Room.  
+The Backyard is south of the Living Room. "Nothing going on here. Maybe an ingredient will be here later." 
 
-The Attic is up from the Living Room.
+The Attic is up from the Living Room. "Nothing going on here. Maybe an ingredient will be here later."
 
 The Basement is down from the Living Room. "Not much going on here. Basically, the laundry room for you."
 The washing machine is a closed, openable and enterable container. The washing machine is in the basement.
