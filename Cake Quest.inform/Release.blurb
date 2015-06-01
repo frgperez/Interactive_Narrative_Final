@@ -1,17 +1,17 @@
 ! Blurb file created by Inform build 6L38
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Jordan\Documents\GitHub\CM148\Interactive_Narrative_Final\Cake Quest.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Francisco\Documents\GitHub\Interactive_Narrative_Final\Cake Quest.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\Jordan\Documents\GitHub\CM148\Interactive_Narrative_Final\Cake Quest.inform"
+project folder "C:\Users\Francisco\Documents\GitHub\Interactive_Narrative_Final\Cake Quest.inform"
 
 ! Blorb instructions
 
 storyfile leafname "Cake Quest.gblorb"
-storyfile "C:\Users\Jordan\Documents\GitHub\CM148\Interactive_Narrative_Final\Cake Quest.inform\Build\output.ulx" include
-ifiction "C:\Users\Jordan\Documents\GitHub\CM148\Interactive_Narrative_Final\Cake Quest.inform\Metadata.iFiction" include
+storyfile "C:\Users\Francisco\Documents\GitHub\Interactive_Narrative_Final\Cake Quest.inform\Build\output.ulx" include
+ifiction "C:\Users\Francisco\Documents\GitHub\Interactive_Narrative_Final\Cake Quest.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 

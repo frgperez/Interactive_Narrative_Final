@@ -1,5 +1,5 @@
 Debugging log of Inform 7
-Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -internal C:\Program Files (x86)\Inform 7\Internal -project C:\Users\Jordan\Documents\GitHub\CM148\Interactive_Narrative_Final\Cake Quest.inform -format=ulx
+Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -internal C:\Program Files (x86)\Inform 7\Internal -project C:\Users\Francisco\Documents\GitHub\Interactive_Narrative_Final\Cake Quest.inform -format=ulx
 Found language bundle 'English' (from .materials)
 Found language bundle 'French' (from .materials)
 Found language bundle 'German' (from .materials)
@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 469 words long.
+I've now read your source text, which is 643 words long.
 
 
 -----------------------------------------------------
@@ -175,7 +175,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 102 files written as streams.
-CPU time: 1225 centiseconds
+CPU time: 165 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
