@@ -1,13 +1,382 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x02A2FC40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02A2FC40"/>
+  <activeNode nodeId="node-0x0B549AD8"/>
   <item nodeId="node-0x02A2FC40">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve"></result>
+    <result xml:space="preserve">Cake Quest&#x000A;An Interactive Fiction by Jordan Hyman and Francisco Perez&#x000A;Release 1 / Serial number 150531 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
+    <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02A22FB8"/>
+      <child nodeId="node-0x0B549838"/>
+      <child nodeId="node-0x0B549C98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22FB8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Kitchen&#x000A;An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549678"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549678">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch, addorned with some new throw pillows resting on each side, and your big-screen TV.&#x000A;&#x000A;You can see a left throw pillow and a right throw pillow here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B5496E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B5496E8">
+    <command xml:space="preserve">inspect right throw pillow</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549758"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549758">
+    <command xml:space="preserve">look at right throw pillow</command>
+    <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of sugar!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B5497C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B5497C8">
+    <command xml:space="preserve">take right throw pillow</command>
+    <result xml:space="preserve">That isn't available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B549838">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B5498A8"/>
+      <child nodeId="node-0x0B549A68"/>
+      <child nodeId="node-0x02A22AE8"/>
+      <child nodeId="node-0x02A22D18"/>
+      <child nodeId="node-0x02A22ED8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B5498A8">
+    <command xml:space="preserve">look at right throw pillow</command>
+    <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of sugar!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549918"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549918">
+    <command xml:space="preserve">take right throw pillow</command>
+    <result xml:space="preserve">That isn't available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549988"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549988">
+    <command xml:space="preserve">take left throw pillow</command>
+    <result xml:space="preserve">That isn't available.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B5499F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B5499F8">
+    <command xml:space="preserve">pick up right throw pillow</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B549A68">
+    <command xml:space="preserve">take left throw pillow</command>
+    <result xml:space="preserve">You don't need a pillow to make a cake!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549AD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549AD8">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549B48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549B48">
+    <command xml:space="preserve">take right throw pillow</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549BB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549BB8">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bag of sugar&#x000A;  a bag of flour&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549C28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549C28">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch, addorned with some new throw pillows resting on each side, and your big-screen TV.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02A22AE8">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Bedroom&#x000A;The Bedroom: a place to rest your head after a long day's work.&#x000A;&#x000A;You can see a nighstand (on which is a bottle of eyedrops) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22F48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22F48">
+    <command xml:space="preserve">look at bottle of eyedrops</command>
+    <result xml:space="preserve">Upon closer inspection, you realized this is actually a bottle of vanilla extract!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22B58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22B58">
+    <command xml:space="preserve">take bottle of eyedrops</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22BC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22BC8">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bottle of vanilla extract&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02A22D18">
+    <command xml:space="preserve">look at left throw pillow</command>
+    <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of flour!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22D88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22D88">
+    <command xml:space="preserve">look at right throw pillow</command>
+    <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of sugar!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22DF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22DF8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which are a bag of sugar and a bag of flour) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22E68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22E68">
+    <command xml:space="preserve">take bag of sugar and bag of flour</command>
+    <result xml:space="preserve">bag of sugar: Taken.&#x000A;bag of flour: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02A22ED8">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom where you wash up and other bodily functions.&#x000A;&#x000A;You can see a shower (in which is a bar of soap) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22A08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22A08">
+    <command xml:space="preserve">look at bar of soap</command>
+    <result xml:space="preserve">This is really a stick of butter!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22A78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22A78">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Bathroom&#x000A;The bathroom where you wash up and other bodily functions.&#x000A;&#x000A;You can see a shower (in which is a stick of butter) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0B549C98">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549D08"/>
+      <child nodeId="node-0x02A22C38"/>
+      <child nodeId="node-0x02A22998"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549D08">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549D78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549D78">
+    <command xml:space="preserve">take left throw pillow</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0B549DE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0B549DE8">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bag of flour&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02A22C38">
+    <command xml:space="preserve">examine left throw pillow</command>
+    <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of flour!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02A22CA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02A22CA8">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a bag of flour&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02A22998">
+    <command xml:space="preserve">take left throw pillow</command>
+    <result xml:space="preserve">You don't need a pillow to make a cake!&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118A8FD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118A8FD8">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a left throw pillow&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x118A90B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x118A90B8">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which is a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
   </item>
 </Skein>
