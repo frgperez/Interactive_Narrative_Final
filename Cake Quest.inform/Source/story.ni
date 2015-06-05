@@ -3,6 +3,7 @@
 understand "upstairs" as up.
 understand "downstairs" as down.
 Make is an action applying to nothing.
+understand "make the cake" as make.
 
 Every turn:
 	say "[time of day]";
@@ -12,7 +13,7 @@ Every turn:
 When play begins:
 	say "You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need! You only have until 10:00 AM to find everything!".
 
-The Kitchen is a room.  The counter is a supporter in the Kitchen. The ingredients list is a thing on the counter. The description of the ingredients list is "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS. With all these items, you'll be able to >>MAKE<< the cake.". "An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room."
+The Kitchen is a room.  The counter is a supporter in the Kitchen. The ingredients list is a thing on the counter. The description of the ingredients list is "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS. With all these items, you'll be able to >>MAKE THE CAKE<<.". "An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room."
 A refrigerator is an openable and closed container in the kitchen. The description is "Very common item in kitchens."
 An egg carton is an openable and closed container in the refrigerator. The description is "[If closed]You found the eggs![otherwise]The eggs have been replaced with golf balls!?[end if]".
 Golf balls are a thing inside the egg carton. The description is "The golf balls you use when playing golf. Can't believe you replaced the eggs with them."

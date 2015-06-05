@@ -11513,7 +11513,7 @@ Object -> -> I153_pile_of_clothes ""
     with IK2_Link I154_table
     with KD_Count 2
     with name 'pile' 'of' 'clothes' 'things//p' 'clothes' 
-    with parse_name Parse_Name_GV93
+    with parse_name Parse_Name_GV94
     with action_bitmap 0 0 0 0 0 
     with description BC_313
     with initial BC_314
@@ -11703,7 +11703,7 @@ Array Global_Vars -->
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
 Array tab_0_0 table $0664 0 (BC_359) (BC_360) (BC_361) (BC_362) (BC_363) ;
 Array tab_0_1 table $0465 1 (0) (0) (1) (0) (0) ;
-Array tab_0_2 table $2066 2 (Consult_Grammar_94) (Consult_Grammar_95) (Consult_Grammar_96) (Consult_Grammar_97) (Consult_Grammar_98) ;
+Array tab_0_2 table $2066 2 (Consult_Grammar_95) (Consult_Grammar_96) (Consult_Grammar_97) (Consult_Grammar_98) (Consult_Grammar_99) ;
 Array tab_0_3 table $0067 3 (IMMEDIATELY_RESTART_VM_R) (IMMEDIATELY_RESTORE_SAVED_R) ( TABLE_NOVALUE) (IMMEDIATELY_QUIT_R) (IMMEDIATELY_UNDO_R) ;
 Array tab_0_4 table $0068 4 ( TABLE_NOVALUE) ( TABLE_NOVALUE) (V27_amusing_a_victorious_pla) ( TABLE_NOVALUE) ( TABLE_NOVALUE) ;
 Array T1_locale_priorities table  tab_1_0 tab_1_1;
@@ -16400,15 +16400,15 @@ Array ActionHappened --> 0 0 0 0 0;
         ! [2: if the player is the actor begin]
         if (((player == actor))){
             ! [3: if the player's command includes ~stand~ begin]
-            if (((matched_text=SnippetIncludes(Consult_Grammar_99,players_command)))){
+            if (((matched_text=SnippetIncludes(Consult_Grammar_100,players_command)))){
                 ! [4: say ~[regarding the noun][They're] not something [we] [can] stand on.~ ( a )]
                 say__p=1;ParaContent(); print (TEXT_TY_Say) (TX_R_219); new_line; .L_Say138; .L_SayX135;
                 ! [5: otherwise if the player's command includes ~sit~]
-                } else if (((matched_text=SnippetIncludes(Consult_Grammar_100,players_command)))) {
+                } else if (((matched_text=SnippetIncludes(Consult_Grammar_101,players_command)))) {
                 ! [6: say ~[regarding the noun][They're] not something [we] [can] sit down on.~ ( b )]
                 say__p=1;ParaContent(); print (TEXT_TY_Say) (TX_R_220); new_line; .L_Say139; .L_SayX136;
                 ! [7: otherwise if the player's command includes ~lie~]
-                } else if (((matched_text=SnippetIncludes(Consult_Grammar_101,players_command)))) {
+                } else if (((matched_text=SnippetIncludes(Consult_Grammar_102,players_command)))) {
                 ! [8: say ~[regarding the noun][They're] not something [we] [can] lie down on.~ ( c )]
                 say__p=1;ParaContent(); print (TEXT_TY_Say) (TX_R_221); new_line; .L_Say140; .L_SayX137;
                 ! [9: otherwise]
@@ -48454,7 +48454,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
     DetectPluralWord(original_wn, n);
     return n;
 ];
-[ Parse_Name_GV93 
+[ Parse_Name_GV94 
     original_wn ! first word of text parsed
     group_wn ! first word matched against A/B/C/... disjunction
     try_from_wn ! position to try matching from
@@ -48508,7 +48508,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
     DetectPluralWord(original_wn, n);
     return n;
 ];
-[ Consult_Grammar_94 
+[ Consult_Grammar_95 
     range_from ! call parameter: word number of snippet start
 
     range_words ! call parameter: snippet length
@@ -48528,7 +48528,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
         .Fail_1; rv = GPR_PREPOSITION; wn = original_wn;
     return GPR_FAIL;
 ];
-[ Consult_Grammar_95 
+[ Consult_Grammar_96 
     range_from ! call parameter: word number of snippet start
 
     range_words ! call parameter: snippet length
@@ -48548,7 +48548,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
         .Fail_1; rv = GPR_PREPOSITION; wn = original_wn;
     return GPR_FAIL;
 ];
-[ Consult_Grammar_96 
+[ Consult_Grammar_97 
     range_from ! call parameter: word number of snippet start
 
     range_words ! call parameter: snippet length
@@ -48568,7 +48568,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
         .Fail_1; rv = GPR_PREPOSITION; wn = original_wn;
     return GPR_FAIL;
 ];
-[ Consult_Grammar_97 
+[ Consult_Grammar_98 
     range_from ! call parameter: word number of snippet start
 
     range_words ! call parameter: snippet length
@@ -48588,7 +48588,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
         .Fail_1; rv = GPR_PREPOSITION; wn = original_wn;
     return GPR_FAIL;
 ];
-[ Consult_Grammar_98 
+[ Consult_Grammar_99 
     range_from ! call parameter: word number of snippet start
 
     range_words ! call parameter: snippet length
@@ -48608,7 +48608,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
         .Fail_1; rv = GPR_PREPOSITION; wn = original_wn;
     return GPR_FAIL;
 ];
-[ Consult_Grammar_99 
+[ Consult_Grammar_100 
     range_from ! call parameter: word number of snippet start
 
     range_words ! call parameter: snippet length
@@ -48628,7 +48628,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
         .Fail_1; rv = GPR_PREPOSITION; wn = original_wn;
     return GPR_FAIL;
 ];
-[ Consult_Grammar_100 
+[ Consult_Grammar_101 
     range_from ! call parameter: word number of snippet start
 
     range_words ! call parameter: snippet length
@@ -48648,7 +48648,7 @@ Array present_chronological_record-->(NO_PAST_TENSE_CONDS+1);
         .Fail_1; rv = GPR_PREPOSITION; wn = original_wn;
     return GPR_FAIL;
 ];
-[ Consult_Grammar_101 
+[ Consult_Grammar_102 
     range_from ! call parameter: word number of snippet start
 
     range_words ! call parameter: snippet length
@@ -48971,6 +48971,9 @@ Verb 'notify'
     * 'on'  -> NotifyOn
     * 'off'  -> NotifyOff
 ;
+Verb 'make'
+    * 'the' 'cake'  -> A77_make
+;
 
 
 
@@ -49004,7 +49007,7 @@ Verb 'notify'
 
 
 Constant TX_PS_87 = ">";
-Constant TX_PS_37 = "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS. With all these items, you'll be able to >>MAKE<< the cake.";
+Constant TX_PS_37 = "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS. With all these items, you'll be able to >>MAKE THE CAKE<<.";
 Constant TX_PS_3 = "An Interactive Fiction";
 Constant TX_PS_38 = "An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room.";
 Constant TX_PS_32 = "As good-looking as ever.";
