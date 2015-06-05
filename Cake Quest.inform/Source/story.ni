@@ -5,7 +5,7 @@ understand "downstairs" as down.
 
 Every turn:
 	say "[time of day]";
-	if the time of day is 9:10 AM:
+	if the time of day is 10:00 AM:
 		end the story saying "You took too long finding the ingredients! The customer won't be happy."
 
 When play begins:

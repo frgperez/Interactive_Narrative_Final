@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x02D03178" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02D03178"/>
+  <activeNode nodeId="node-0x0DB29470"/>
   <item nodeId="node-0x02D03178">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need! 9:00 am&#x000A;Cake Quest&#x000A;An Interactive Fiction by Jordan Hyman and Francisco Perez&#x000A;Release 1 / Serial number 150605 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room.&#x000A;&#x000A;You can see a counter here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need! You only have until 10:00 AM to find everything!&#x000A;&#x000A;Cake Quest&#x000A;An Interactive Fiction by Jordan Hyman and Francisco Perez&#x000A;Release 1 / Serial number 150605 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room.&#x000A;&#x000A;You can see a counter here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <children>
       <child nodeId="node-0x02D0C0B8"/>
@@ -570,7 +570,7 @@
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;9:00 am&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-0x02D13D60"/>
@@ -663,22 +663,21 @@
     <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, your laundry room. You see an empty hamper in front the washing machine and dryer. Upstairs is the Living Room.&#x000A;&#x000A;You can see a washing machine (closed), a dryer (closed) and a table (on which is a box (closed)) here.&#x000A;&#x000A;9:01 am&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-0x02D15C70"/>
       <child nodeId="node-0x02D15E30"/>
       <child nodeId="node-0x02D15F10"/>
       <child nodeId="node-0x10FFF1C8"/>
-      <child nodeId="node-0x10FFF318"/>
     </children>
   </item>
   <item nodeId="node-0x02D15C70">
     <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">washing machine: It is too heavy to pick up!&#x000A;dryer: It is too heavy to pick up!&#x000A;box: Maybe what you need is inside. You don't need to take the whole box.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">washing machine: It is too heavy to pick up!&#x000A;dryer: It is too heavy to pick up!&#x000A;box: Maybe what you need is inside. You don't need to take the whole box.&#x000A;&#x000A;9:02 am&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-0x02D15CE0"/>
@@ -718,10 +717,10 @@
   </item>
   <item nodeId="node-0x02D1AE50">
     <command xml:space="preserve">open washing machine</command>
-    <result xml:space="preserve">You open the washing machine, revealing a powdered detergent.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You open the washing machine, revealing a powdered detergent.&#x000A;&#x000A;9:03 am&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-0x02D1ADE0"/>
@@ -730,13 +729,14 @@
   </item>
   <item nodeId="node-0x02D1ADE0">
     <command xml:space="preserve">examine powdered detergent</command>
-    <result xml:space="preserve">This is really a box of baking powder!&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">This is really a box of baking powder!&#x000A;&#x000A;9:04 am&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-0x02D1AFA0"/>
+      <child nodeId="node-0x02D1AF30"/>
     </children>
   </item>
   <item nodeId="node-0x02D1AFA0">
@@ -753,6 +753,69 @@
   <item nodeId="node-0x02D1B010">
     <command xml:space="preserve">take baking powder</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D1AF30">
+    <command xml:space="preserve">take baking powder</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;9:05 am&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DB29390"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DB29390">
+    <command xml:space="preserve">open dryer</command>
+    <result xml:space="preserve">You open the dryer, revealing a pile of clothes.&#x000A;&#x000A;9:06 am&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DB29320"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DB29320">
+    <command xml:space="preserve">examine box</command>
+    <result xml:space="preserve">A normal box you use to store items in. &#x000A;&#x000A;9:07 am&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DB290F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DB290F0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the box, revealing a dryer sheets, a fabric softener and a bottle of bleach.&#x000A;&#x000A;9:08 am&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DB29400"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DB29400">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">washing machine: It is too heavy to pick up!&#x000A;dryer: It is too heavy to pick up!&#x000A;pile of clothes: You should be more worried about finding the ingredients right now.&#x000A;box: You don't need to take the whole box.&#x000A;dryer sheets: Now is not time for laundry.&#x000A;fabric softener: Now is not time for laundry.&#x000A;bottle of bleach: Now is not time for laundry.&#x000A;&#x000A;9:09 am&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0DB29470"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0DB29470">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;9:10 am&#x000A;&#x000A;&#x000A;    *** You took too long finding the ingredients! The customer won't be happy. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -996,69 +1059,6 @@
   <item nodeId="node-0x10FFF238">
     <command xml:space="preserve">examine</command>
     <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x10FFF2A8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x10FFF2A8">
-    <command xml:space="preserve">box</command>
-    <result xml:space="preserve">Oh look a normal box with stuff inside.&#x000A;&#x000A;In the box are a dryer sheets, a fabric softener and a bottle of bleach.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x10FFF318">
-    <command xml:space="preserve">examine box</command>
-    <result xml:space="preserve">A normal box you use to store items in. Maybe one of the ingredients is inside.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x10FFF388"/>
-    </children>
-  </item>
-  <item nodeId="node-0x10FFF388">
-    <command xml:space="preserve">open washing machine</command>
-    <result xml:space="preserve">You open the washing machine, revealing a powdered detergent.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x10FFF3F8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x10FFF3F8">
-    <command xml:space="preserve">take powdered detergent</command>
-    <result xml:space="preserve">Now is not the time to do laundry.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x10FFF548"/>
-    </children>
-  </item>
-  <item nodeId="node-0x10FFF548">
-    <command xml:space="preserve">examine powdered detergent</command>
-    <result xml:space="preserve">This is really a box of baking powder!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x10FFF468"/>
-    </children>
-  </item>
-  <item nodeId="node-0x10FFF468">
-    <command xml:space="preserve">take baking powder</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
