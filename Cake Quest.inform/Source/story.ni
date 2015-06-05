@@ -60,8 +60,9 @@ The Attic is up from the Living Room. "Nothing going on here. Maybe an ingredien
 The Basement is down from the Living Room. "Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room."
 The washing machine is a closed, openable and enterable container. The washing machine is in the basement.
 The dryer is a closed, openable and enterable container. The dryer is in the basement.
-The powdered detergent is a thing in the basement. The description is "This is really a box of baking powder!"
-The baking powder is a thing.
+The powdered detergent is a thing in the washing machine. The description is "This is really a box of baking powder!"
+The baking powder is a thing. The description is "One of the ingredients needed to make the cake."
+A pile of clothes is a thing inside the dryer.
 
 After examining the powdered detergent:
 	now the powdered detergent is nowhere;
@@ -80,9 +81,13 @@ Before taking the dryer:
 	
 After entering the washing machine:
 	say "There doesn't seem to be any ingredients in this uncomfortable, tight space...";
-	now the player is in the basement
+	stop the action
 	
-After entering the dryer:
-	say "There doesn't seem to be any ingredients in this uncomfortable, tight space...";
-	now the player is in the basement
+Before entering the dryer:
+	say "No room for you in there!";
+	stop the action
+	
+Before taking a pile of clothes:
+	say "You should be more worried about finding the ingredients right now.";
+	stop the action
 	
