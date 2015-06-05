@@ -53,22 +53,54 @@ Before taking the bar of soap:
 	say "Soap tastes awful. It has no place in your cake.";
 	stop the action;
 
+[Backyard]
+
 The Backyard is south of the Living Room. "Nothing going on here. Maybe an ingredient will be here later. To the north is the Living Room." 
+
+[End Backyard]
+
+[Attic]
 
 The Attic is up from the Living Room. "Nothing going on here. Maybe an ingredient will be here later. Downstairs is the Living Room."
 
-The Basement is down from the Living Room. "Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room."
+[End Attic]
+
+[Basement]
+
+The Basement is down from the Living Room. "Not much going on here. Basically, your laundry room. Upstairs is the Living Room."
 The washing machine is a closed, openable and enterable container. The washing machine is in the basement.
 The dryer is a closed, openable and enterable container. The dryer is in the basement.
 The powdered detergent is a thing in the washing machine. The description is "This is really a box of baking powder!"
 The baking powder is a thing. The description is "One of the ingredients needed to make the cake."
 A pile of clothes is a thing inside the dryer.
+Understand "clothes" as pile of clothes.
+A box is an openable and closed container in the basement. The description is "Oh look a normal box with stuff inside."
+The dryer sheets are in the box. The description is "You should use these when you use the dryer."
+The fabric softener is in the box. The description is "You should use this when you use the washing machine."
+The bottle of bleach is in the box. The description is "You should use this when washing white clothes only."
+
+
+Before taking the dryer sheets:
+	say "Now is not time for laundry.";
+	stop the action
+	
+Before taking the fabric softener:
+	say "Now is not time for laundry.";
+	stop the action
+	
+Before taking the bottle of bleach:
+	say "Now is not time for laundry.";
+	stop the action
+	
+Before taking the box:
+	say "[if the box is closed]Maybe what you need is inside. [end if]You don't need to take the whole box.";
+	stop the action
 
 After examining the powdered detergent:
 	now the powdered detergent is nowhere;
-	now the baking powder is in the basement;
+	now the baking powder is in the washing machine;
 Before taking the powdered detergent:
-	say "Now is not the time to do laundry...";
+	say "Now is not the time to do laundry.";
 	stop the action
 	
 Before taking the washing machine:
@@ -79,8 +111,8 @@ Before taking the dryer:
 	say "It is too heavy to pick up!";
 	stop the action
 	
-After entering the washing machine:
-	say "There doesn't seem to be any ingredients in this uncomfortable, tight space...";
+Before entering the washing machine:		
+	say "[if the player is carrying baking powder]There doesn't seem to be any ingredients in this uncomfortable, tight space...[otherwise]Oh look a box of [end if][if the powdered detergent is in the washing machine]powdered detergent[otherwise if the baking powder is in the washing machine]baking powder. [end if]";
 	stop the action
 	
 Before entering the dryer:
@@ -90,4 +122,6 @@ Before entering the dryer:
 Before taking a pile of clothes:
 	say "You should be more worried about finding the ingredients right now.";
 	stop the action
+	
+[End Basement]
 	

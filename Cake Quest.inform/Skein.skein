@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x02C1EEC0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x02D03178" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02C1EEC0"/>
-  <item nodeId="node-0x02C1EEC0">
+  <activeNode nodeId="node-0x02D03178"/>
+  <item nodeId="node-0x02D03178">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need!&#x000A;&#x000A;Cake Quest&#x000A;An Interactive Fiction by Jordan Hyman and Francisco Perez&#x000A;Release 1 / Serial number 150603 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room.&#x000A;&#x000A;You can see a counter here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need!&#x000A;&#x000A;Cake Quest&#x000A;An Interactive Fiction by Jordan Hyman and Francisco Perez&#x000A;Release 1 / Serial number 150605 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room.&#x000A;&#x000A;You can see a counter here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <children>
-      <child nodeId="node-0x02C1F088"/>
-      <child nodeId="node-0x02C1B318"/>
-      <child nodeId="node-0x02C23F08"/>
-      <child nodeId="node-0x02C25EA8"/>
-      <child nodeId="node-0x02C26068"/>
+      <child nodeId="node-0x02D0C0B8"/>
+      <child nodeId="node-0x028930D0"/>
+      <child nodeId="node-0x02D13CF0"/>
+      <child nodeId="node-0x02D18A30"/>
     </children>
   </item>
-  <item nodeId="node-0x02C1F088">
+  <item nodeId="node-0x02D0C0B8">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Kitchen&#x000A;An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -25,10 +24,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C1AD90"/>
+      <child nodeId="node-0x02D0C340"/>
     </children>
   </item>
-  <item nodeId="node-0x02C1AD90">
+  <item nodeId="node-0x02D0C340">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch, addorned with some new throw pillows resting on each side, and your big-screen TV.&#x000A;&#x000A;You can see a left throw pillow and a right throw pillow here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -36,10 +35,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C1AE00"/>
+      <child nodeId="node-0x02D0C7B0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C1AE00">
+  <item nodeId="node-0x02D0C7B0">
     <command xml:space="preserve">inspect right throw pillow</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -47,10 +46,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C1AF10"/>
+      <child nodeId="node-0x02892CC8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C1AF10">
+  <item nodeId="node-0x02892CC8">
     <command xml:space="preserve">look at right throw pillow</command>
     <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of sugar!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -58,10 +57,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C1AF80"/>
+      <child nodeId="node-0x02892D38"/>
     </children>
   </item>
-  <item nodeId="node-0x02C1AF80">
+  <item nodeId="node-0x02892D38">
     <command xml:space="preserve">take right throw pillow</command>
     <result xml:space="preserve">That isn't available.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -69,7 +68,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C1B318">
+  <item nodeId="node-0x028930D0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -77,18 +76,18 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C1B428"/>
-      <child nodeId="node-0x02C20628"/>
-      <child nodeId="node-0x02C20858"/>
-      <child nodeId="node-0x02C20A18"/>
-      <child nodeId="node-0x02C20BD8"/>
-      <child nodeId="node-0x02C21880"/>
-      <child nodeId="node-0x02C23B88"/>
-      <child nodeId="node-0x02C23C68"/>
-      <child nodeId="node-0x02C23E98"/>
+      <child nodeId="node-0x028931F8"/>
+      <child nodeId="node-0x02893428"/>
+      <child nodeId="node-0x02893658"/>
+      <child nodeId="node-0x02893818"/>
+      <child nodeId="node-0x02D11708"/>
+      <child nodeId="node-0x02D11858"/>
+      <child nodeId="node-0x02D13970"/>
+      <child nodeId="node-0x02D13A50"/>
+      <child nodeId="node-0x02D13C80"/>
     </children>
   </item>
-  <item nodeId="node-0x02C1B428">
+  <item nodeId="node-0x028931F8">
     <command xml:space="preserve">look at right throw pillow</command>
     <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of sugar!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -96,10 +95,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C1C498"/>
+      <child nodeId="node-0x02893268"/>
     </children>
   </item>
-  <item nodeId="node-0x02C1C498">
+  <item nodeId="node-0x02893268">
     <command xml:space="preserve">take right throw pillow</command>
     <result xml:space="preserve">That isn't available.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -107,10 +106,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C204D8"/>
+      <child nodeId="node-0x028932D8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C204D8">
+  <item nodeId="node-0x028932D8">
     <command xml:space="preserve">take left throw pillow</command>
     <result xml:space="preserve">That isn't available.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -118,10 +117,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20548"/>
+      <child nodeId="node-0x02893348"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20548">
+  <item nodeId="node-0x02893348">
     <command xml:space="preserve">pick up right throw pillow</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -129,7 +128,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C20628">
+  <item nodeId="node-0x02893428">
     <command xml:space="preserve">take left throw pillow</command>
     <result xml:space="preserve">You don't need a pillow to make a cake!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -137,10 +136,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20698"/>
+      <child nodeId="node-0x02893498"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20698">
+  <item nodeId="node-0x02893498">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -148,10 +147,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20708"/>
+      <child nodeId="node-0x02893508"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20708">
+  <item nodeId="node-0x02893508">
     <command xml:space="preserve">take right throw pillow</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -159,10 +158,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20778"/>
+      <child nodeId="node-0x02893578"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20778">
+  <item nodeId="node-0x02893578">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:&#x000A;  a bag of sugar&#x000A;  a bag of flour&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -170,10 +169,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C207E8"/>
+      <child nodeId="node-0x028935E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C207E8">
+  <item nodeId="node-0x028935E8">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch, addorned with some new throw pillows resting on each side, and your big-screen TV.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -181,7 +180,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C20858">
+  <item nodeId="node-0x02893658">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">Bedroom&#x000A;The Bedroom: a place to rest your head after a long day's work.&#x000A;&#x000A;You can see a nighstand (on which is a bottle of eyedrops) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -189,10 +188,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C208C8"/>
+      <child nodeId="node-0x028936C8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C208C8">
+  <item nodeId="node-0x028936C8">
     <command xml:space="preserve">look at bottle of eyedrops</command>
     <result xml:space="preserve">Upon closer inspection, you realized this is actually a bottle of vanilla extract!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -200,10 +199,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20938"/>
+      <child nodeId="node-0x02893738"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20938">
+  <item nodeId="node-0x02893738">
     <command xml:space="preserve">take bottle of eyedrops</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -211,10 +210,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C209A8"/>
+      <child nodeId="node-0x028937A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C209A8">
+  <item nodeId="node-0x028937A8">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:&#x000A;  a bottle of vanilla extract&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -222,7 +221,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C20A18">
+  <item nodeId="node-0x02893818">
     <command xml:space="preserve">look at left throw pillow</command>
     <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of flour!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -230,10 +229,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20A88"/>
+      <child nodeId="node-0x02893888"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20A88">
+  <item nodeId="node-0x02893888">
     <command xml:space="preserve">look at right throw pillow</command>
     <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of sugar!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -241,10 +240,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20AF8"/>
+      <child nodeId="node-0x028938F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20AF8">
+  <item nodeId="node-0x028938F8">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which are a bag of sugar and a bag of flour) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -252,10 +251,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20B68"/>
+      <child nodeId="node-0x02893968"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20B68">
+  <item nodeId="node-0x02893968">
     <command xml:space="preserve">take bag of sugar and bag of flour</command>
     <result xml:space="preserve">bag of sugar: Taken.&#x000A;bag of flour: Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -263,7 +262,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C20BD8">
+  <item nodeId="node-0x02D11708">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">Bathroom&#x000A;The bathroom where you wash up and other bodily functions.&#x000A;&#x000A;You can see a shower (in which is a bar of soap) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -271,10 +270,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C20C48"/>
+      <child nodeId="node-0x02D11778"/>
     </children>
   </item>
-  <item nodeId="node-0x02C20C48">
+  <item nodeId="node-0x02D11778">
     <command xml:space="preserve">look at bar of soap</command>
     <result xml:space="preserve">This is really a stick of butter!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -282,10 +281,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21810"/>
+      <child nodeId="node-0x02D117E8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21810">
+  <item nodeId="node-0x02D117E8">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Bathroom&#x000A;The bathroom where you wash up and other bodily functions.&#x000A;&#x000A;You can see a shower (in which is a stick of butter) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -293,7 +292,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C21880">
+  <item nodeId="node-0x02D11858">
     <command xml:space="preserve">look at left throw pillow and right throw pillow</command>
     <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -301,10 +300,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C218F0"/>
+      <child nodeId="node-0x02D118C8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C218F0">
+  <item nodeId="node-0x02D118C8">
     <command xml:space="preserve">look at left throw pillow</command>
     <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of flour!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -312,10 +311,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21960"/>
+      <child nodeId="node-0x02D11938"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21960">
+  <item nodeId="node-0x02D11938">
     <command xml:space="preserve">look at right throw pillow</command>
     <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of sugar!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -323,10 +322,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C219D0"/>
+      <child nodeId="node-0x02D119A8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C219D0">
+  <item nodeId="node-0x02D119A8">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which are a bag of sugar and a bag of flour) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -334,10 +333,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21A40"/>
+      <child nodeId="node-0x02D11A18"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21A40">
+  <item nodeId="node-0x02D11A18">
     <command xml:space="preserve">take bag of sugar and bag of flour</command>
     <result xml:space="preserve">bag of sugar: Taken.&#x000A;bag of flour: Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -345,10 +344,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21AB0"/>
+      <child nodeId="node-0x02D11A88"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21AB0">
+  <item nodeId="node-0x02D11A88">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -356,10 +355,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21B20"/>
+      <child nodeId="node-0x02D11AF8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21B20">
+  <item nodeId="node-0x02D11AF8">
     <command xml:space="preserve">sit on couch</command>
     <result xml:space="preserve">That's not something you can sit down on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -367,10 +366,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21B90"/>
+      <child nodeId="node-0x02D11B68"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21B90">
+  <item nodeId="node-0x02D11B68">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">Bathroom&#x000A;The bathroom where you wash up and other bodily functions.&#x000A;&#x000A;You can see a shower (in which is a bar of soap) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -378,10 +377,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21C00"/>
+      <child nodeId="node-0x02D11BD8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21C00">
+  <item nodeId="node-0x02D11BD8">
     <command xml:space="preserve">look at bar of soap</command>
     <result xml:space="preserve">This is really a stick of butter!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -389,10 +388,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21C70"/>
+      <child nodeId="node-0x02D11C48"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21C70">
+  <item nodeId="node-0x02D11C48">
     <command xml:space="preserve">take stick of butter</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -400,10 +399,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21CE0"/>
+      <child nodeId="node-0x02D11CB8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21CE0">
+  <item nodeId="node-0x02D11CB8">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Bathroom&#x000A;The bathroom where you wash up and other bodily functions.&#x000A;&#x000A;You can see a shower (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -411,10 +410,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21D50"/>
+      <child nodeId="node-0x02D11D28"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21D50">
+  <item nodeId="node-0x02D11D28">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -422,10 +421,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21DC0"/>
+      <child nodeId="node-0x02D11D98"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21DC0">
+  <item nodeId="node-0x02D11D98">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -433,10 +432,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21E30"/>
+      <child nodeId="node-0x02D11E08"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21E30">
+  <item nodeId="node-0x02D11E08">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">Bedroom&#x000A;The Bedroom: a place to rest your head after a long day's work.&#x000A;&#x000A;You can see a nightstand (on which is a bottle of eyedrops) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -444,10 +443,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21EA0"/>
+      <child nodeId="node-0x02D11E78"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21EA0">
+  <item nodeId="node-0x02D11E78">
     <command xml:space="preserve">look at eyedrops</command>
     <result xml:space="preserve">Upon closer inspection, you realized this is actually a bottle of vanilla extract!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -455,10 +454,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21F10"/>
+      <child nodeId="node-0x02D13820"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21F10">
+  <item nodeId="node-0x02D13820">
     <command xml:space="preserve">take bottle of vanilla extract</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -466,10 +465,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C21F80"/>
+      <child nodeId="node-0x02D13890"/>
     </children>
   </item>
-  <item nodeId="node-0x02C21F80">
+  <item nodeId="node-0x02D13890">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -477,10 +476,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C23B18"/>
+      <child nodeId="node-0x02D13900"/>
     </children>
   </item>
-  <item nodeId="node-0x02C23B18">
+  <item nodeId="node-0x02D13900">
     <command xml:space="preserve">directions</command>
     <result xml:space="preserve">Which do you mean, the north, the northeast, the northwest, the south, the southeast, the southwest, the east, the west, the up, the down, the inside or the outside?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -488,7 +487,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C23B88">
+  <item nodeId="node-0x02D13970">
     <command xml:space="preserve">go upstairs</command>
     <result xml:space="preserve">Attic&#x000A;Nothing going on here. Maybe an ingredient will be here later.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -496,10 +495,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C23BF8"/>
+      <child nodeId="node-0x02D139E0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C23BF8">
+  <item nodeId="node-0x02D139E0">
     <command xml:space="preserve">go downstairs</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -507,7 +506,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C23C68">
+  <item nodeId="node-0x02D13A50">
     <command xml:space="preserve">go downstairs</command>
     <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room.&#x000A;&#x000A;You can see a washing machine (closed), a dryer (closed) and a powdered detergent here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -515,10 +514,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C23CD8"/>
+      <child nodeId="node-0x02D13AC0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C23CD8">
+  <item nodeId="node-0x02D13AC0">
     <command xml:space="preserve">x detergent</command>
     <result xml:space="preserve">You see nothing special about the powdered detergent.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -526,10 +525,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C23D48"/>
+      <child nodeId="node-0x02D13B30"/>
     </children>
   </item>
-  <item nodeId="node-0x02C23D48">
+  <item nodeId="node-0x02D13B30">
     <command xml:space="preserve">look at detergent</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -537,10 +536,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C23DB8"/>
+      <child nodeId="node-0x02D13BA0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C23DB8">
+  <item nodeId="node-0x02D13BA0">
     <command xml:space="preserve">x detergent</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -548,10 +547,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C23E28"/>
+      <child nodeId="node-0x02D13C10"/>
     </children>
   </item>
-  <item nodeId="node-0x02C23E28">
+  <item nodeId="node-0x02D13C10">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room.&#x000A;&#x000A;You can see a baking powder, a washing machine (closed) and a dryer (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -559,7 +558,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C23E98">
+  <item nodeId="node-0x02D13C80">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room.&#x000A;&#x000A;You can see a washing machine (closed), a dryer (closed) and a powdered detergent here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -567,7 +566,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C23F08">
+  <item nodeId="node-0x02D13CF0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -575,14 +574,14 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C23F78"/>
-      <child nodeId="node-0x02C240C8"/>
-      <child nodeId="node-0x02C241A8"/>
-      <child nodeId="node-0x02C25B98"/>
-      <child nodeId="node-0x02C2B0A8"/>
+      <child nodeId="node-0x02D13D60"/>
+      <child nodeId="node-0x02D13EB0"/>
+      <child nodeId="node-0x02D13F90"/>
+      <child nodeId="node-0x02D15C00"/>
+      <child nodeId="node-0x02D160D0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C23F78">
+  <item nodeId="node-0x02D13D60">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -590,10 +589,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C23FE8"/>
+      <child nodeId="node-0x02D13DD0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C23FE8">
+  <item nodeId="node-0x02D13DD0">
     <command xml:space="preserve">take left throw pillow</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -601,10 +600,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C24058"/>
+      <child nodeId="node-0x02D13E40"/>
     </children>
   </item>
-  <item nodeId="node-0x02C24058">
+  <item nodeId="node-0x02D13E40">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:&#x000A;  a bag of flour&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -612,7 +611,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C240C8">
+  <item nodeId="node-0x02D13EB0">
     <command xml:space="preserve">examine left throw pillow</command>
     <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of flour!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -620,10 +619,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C24138"/>
+      <child nodeId="node-0x02D13F20"/>
     </children>
   </item>
-  <item nodeId="node-0x02C24138">
+  <item nodeId="node-0x02D13F20">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:&#x000A;  a bag of flour&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -631,7 +630,7 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C241A8">
+  <item nodeId="node-0x02D13F90">
     <command xml:space="preserve">take left throw pillow</command>
     <result xml:space="preserve">You don't need a pillow to make a cake!&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -639,10 +638,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C24288"/>
+      <child nodeId="node-0x02D15B20"/>
     </children>
   </item>
-  <item nodeId="node-0x02C24288">
+  <item nodeId="node-0x02D15B20">
     <command xml:space="preserve">inventory</command>
     <result xml:space="preserve">You are carrying:&#x000A;  a left throw pillow&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -650,10 +649,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C25B28"/>
+      <child nodeId="node-0x02D15B90"/>
     </children>
   </item>
-  <item nodeId="node-0x02C25B28">
+  <item nodeId="node-0x02D15B90">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which is a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -661,31 +660,33 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C25B98">
+  <item nodeId="node-0x02D15C00">
     <command xml:space="preserve">down</command>
-    <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room.&#x000A;&#x000A;You can see a washing machine (closed), a dryer (closed) and a powdered detergent here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room.&#x000A;&#x000A;You can see a washing machine (closed), a dryer (closed) and a box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C25C08"/>
-      <child nodeId="node-0x02C25DC8"/>
-      <child nodeId="node-0x02C2B2D8"/>
+      <child nodeId="node-0x02D15C70"/>
+      <child nodeId="node-0x02D15E30"/>
+      <child nodeId="node-0x02D15F10"/>
     </children>
   </item>
-  <item nodeId="node-0x02C25C08">
+  <item nodeId="node-0x02D15C70">
     <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">washing machine: It is too heavy to pick up!&#x000A;dryer: It is too heavy to pick up!&#x000A;powdered detergent: Now is not the time to do laundry...&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">washing machine: It is too heavy to pick up!&#x000A;dryer: It is too heavy to pick up!&#x000A;box: Maybe what you need is inside. You don't need to take the whole box.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C25C78"/>
+      <child nodeId="node-0x02D15CE0"/>
+      <child nodeId="node-0x02D1AE50"/>
+      <child nodeId="node-0x138D6EA0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C25C78">
+  <item nodeId="node-0x02D15CE0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -693,10 +694,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C25CE8"/>
+      <child nodeId="node-0x02D15D50"/>
     </children>
   </item>
-  <item nodeId="node-0x02C25CE8">
+  <item nodeId="node-0x02D15D50">
     <command xml:space="preserve">open washing machine</command>
     <result xml:space="preserve">You open the washing machine.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -704,10 +705,10 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C25D58"/>
+      <child nodeId="node-0x02D15DC0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C25D58">
+  <item nodeId="node-0x02D15DC0">
     <command xml:space="preserve">enter washing machine</command>
     <result xml:space="preserve">You get into the washing machine.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -715,78 +716,19 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C25DC8">
+  <item nodeId="node-0x02D1AE50">
     <command xml:space="preserve">open washing machine</command>
-    <result xml:space="preserve">You open the washing machine.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You open the washing machine, revealing a powdered detergent.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C25E38"/>
+      <child nodeId="node-0x02D1ADE0"/>
+      <child nodeId="node-0x02D30488"/>
     </children>
   </item>
-  <item nodeId="node-0x02C25E38">
-    <command xml:space="preserve">enter washing machine</command>
-    <result xml:space="preserve">There doesn't seem to be any ingredients in this uncomfortable, tight space...&#x000A;&#x000A;Basement&#x000A;Not much going on here. Basically, the laundry room for you.&#x000A;&#x000A;You can see a washing machine (empty), a dryer (closed) and a powdered detergent here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x02C2B2D8">
-    <command xml:space="preserve">open dryer</command>
-    <result xml:space="preserve">You open the dryer, revealing a pile of dirty clothes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C2B268"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C2B268">
-    <command xml:space="preserve">enter dryer</command>
-    <result xml:space="preserve">No room for you in there!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C2B1F8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C2B1F8">
-    <command xml:space="preserve">take pile of clothes</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x002E34F8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x002E34F8">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a pile of dirty clothes&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x02C2B0A8">
-    <command xml:space="preserve">downstairs</command>
-    <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room.&#x000A;&#x000A;You can see a washing machine (closed), a dryer (closed) and a powdered detergent here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C2B118"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C2B118">
+  <item nodeId="node-0x02D1ADE0">
     <command xml:space="preserve">examine powdered detergent</command>
     <result xml:space="preserve">This is really a box of baking powder!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -794,21 +736,21 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C2AF58"/>
+      <child nodeId="node-0x02D1AFA0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C2AF58">
-    <command xml:space="preserve">examine baking powder</command>
-    <result xml:space="preserve">One of the ingredients needed to make the cake.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D1AFA0">
+    <command xml:space="preserve">examine washing machine</command>
+    <result xml:space="preserve">In the washing machine is a baking powder.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C2B188"/>
+      <child nodeId="node-0x02D1B010"/>
     </children>
   </item>
-  <item nodeId="node-0x02C2B188">
+  <item nodeId="node-0x02D1B010">
     <command xml:space="preserve">take baking powder</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -816,158 +758,200 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x02C25EA8">
-    <command xml:space="preserve">down</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D30488">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">There doesn't seem to be any ingredients in this uncomfortable, tight space...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x138D6EA0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the box, revealing a dryer sheets, a fabric softener and a bottle of bleach.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C25F18"/>
+      <child nodeId="node-0x138D6E30"/>
     </children>
   </item>
-  <item nodeId="node-0x02C25F18">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x138D6E30">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">washing machine: It is too heavy to pick up!&#x000A;dryer: It is too heavy to pick up!&#x000A;box: You don't need to take the whole box.&#x000A;dryer sheets: Now is not time for laundry.&#x000A;fabric softener: Now is not time for laundry.&#x000A;bottle of bleach: Now is not time for laundry.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C25F88"/>
+      <child nodeId="node-0x138D6DC0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C25F88">
-    <command xml:space="preserve">down</command>
-    <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C25FF8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C25FF8">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-  </item>
-  <item nodeId="node-0x02C26068">
-    <command xml:space="preserve">x self</command>
-    <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C260D8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C260D8">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C26148"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C26148">
-    <command xml:space="preserve">x couch</command>
-    <result xml:space="preserve">On the couch are a left throw pillow and a right throw pillow.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C261B8"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C261B8">
-    <command xml:space="preserve">x left</command>
-    <result xml:space="preserve">This isn't a throw pillow at all! It's actually a bag of flour!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C26228"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C26228">
-    <command xml:space="preserve">take flour</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C26298"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C26298">
-    <command xml:space="preserve">x right</command>
-    <result xml:space="preserve">This isn't a throw pillow  either! It's actually a bag of sugar!&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C28DA0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C28DA0">
-    <command xml:space="preserve">x sugar</command>
-    <result xml:space="preserve">You see nothing special about the bag of sugar.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C28E10"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C28E10">
-    <command xml:space="preserve">x couch</command>
-    <result xml:space="preserve">On the couch is a bag of sugar.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C28E80"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C28E80">
-    <command xml:space="preserve">take sugar</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C28EF0"/>
-    </children>
-  </item>
-  <item nodeId="node-0x02C28EF0">
+  <item nodeId="node-0x138D6DC0">
     <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  a bag of sugar&#x000A;  a bag of flour&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C28F60"/>
+      <child nodeId="node-0x138D6F80"/>
     </children>
   </item>
-  <item nodeId="node-0x02C28F60">
+  <item nodeId="node-0x138D6F80">
+    <command xml:space="preserve">open washing machine</command>
+    <result xml:space="preserve">You open the washing machine, revealing a powdered detergent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x138D6F10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x138D6F10">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">washing machine: It is too heavy to pick up!&#x000A;dryer: It is too heavy to pick up!&#x000A;box: You don't need to take the whole box.&#x000A;powdered detergent: Now is not the time to do laundry...&#x000A;dryer sheets: Now is not time for laundry.&#x000A;fabric softener: Now is not time for laundry.&#x000A;bottle of bleach: Now is not time for laundry.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D15E30">
+    <command xml:space="preserve">open washing machine</command>
+    <result xml:space="preserve">You open the washing machine, revealing a powdered detergent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D15EA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D15EA0">
+    <command xml:space="preserve">enter washing machine</command>
+    <result xml:space="preserve">Oh look a box of powdered detergent&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D30648"/>
+      <child nodeId="node-0x02D30798"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D30648">
+    <command xml:space="preserve">examine washing machine</command>
+    <result xml:space="preserve">In the washing machine is a powdered detergent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D30798">
+    <command xml:space="preserve">examine powdered detergent</command>
+    <result xml:space="preserve">This is really a box of baking powder!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D30878"/>
+      <child nodeId="node-0x02D30808"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D30878">
+    <command xml:space="preserve">examine washing machine</command>
+    <result xml:space="preserve">In the washing machine is a baking powder.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D308E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D308E8">
+    <command xml:space="preserve">enter washing machine</command>
+    <result xml:space="preserve">But you're already in the washing machine.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D30808">
+    <command xml:space="preserve">enter washing machine</command>
+    <result xml:space="preserve">Oh look a box of baking powder. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D309C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D309C8">
+    <command xml:space="preserve">take baking powder</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D30A38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D30A38">
+    <command xml:space="preserve">enter washing machine</command>
+    <result xml:space="preserve">There doesn't seem to be any ingredients in this uncomfortable, tight space...&#x000A;baking powder. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D15F10">
+    <command xml:space="preserve">open dryer</command>
+    <result xml:space="preserve">You open the dryer, revealing a pile of dirty clothes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D15F80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D15F80">
+    <command xml:space="preserve">enter dryer</command>
+    <result xml:space="preserve">No room for you in there!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D15FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D15FF0">
+    <command xml:space="preserve">take pile of clothes</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D16060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D16060">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a pile of dirty clothes&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D160D0">
     <command xml:space="preserve">downstairs</command>
     <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room.&#x000A;&#x000A;You can see a washing machine (closed), a dryer (closed) and a powdered detergent here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -975,100 +959,106 @@
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C28FD0"/>
+      <child nodeId="node-0x02D161B0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C28FD0">
-    <command xml:space="preserve">x detergent</command>
-    <result xml:space="preserve">You see nothing special about the powdered detergent.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D161B0">
+    <command xml:space="preserve">examine powdered detergent</command>
+    <result xml:space="preserve">This is really a box of baking powder!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C29040"/>
+      <child nodeId="node-0x02D16220"/>
     </children>
   </item>
-  <item nodeId="node-0x02C29040">
-    <command xml:space="preserve">x washing machine</command>
-    <result xml:space="preserve">You see nothing special about the washing machine.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D16220">
+    <command xml:space="preserve">examine baking powder</command>
+    <result xml:space="preserve">One of the ingredients needed to make the cake.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C29120"/>
+      <child nodeId="node-0x02D189C0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C29120">
-    <command xml:space="preserve">x dryer</command>
-    <result xml:space="preserve">You see nothing special about the dryer.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D189C0">
+    <command xml:space="preserve">take baking powder</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D18A30">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C29190"/>
+      <child nodeId="node-0x02D18AA0"/>
     </children>
   </item>
-  <item nodeId="node-0x02C29190">
-    <command xml:space="preserve">open dryer</command>
-    <result xml:space="preserve">You open the dryer.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D18AA0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C29200"/>
+      <child nodeId="node-0x02D18B10"/>
     </children>
   </item>
-  <item nodeId="node-0x02C29200">
-    <command xml:space="preserve">x powdered detergent</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D18B10">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you. Upstairs is the Living Room.&#x000A;&#x000A;You can see a washing machine (closed), a dryer (closed) and a box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C29270"/>
+      <child nodeId="node-0x02D18B80"/>
+      <child nodeId="node-0x02D30568"/>
     </children>
   </item>
-  <item nodeId="node-0x02C29270">
-    <command xml:space="preserve">x dryer</command>
-    <result xml:space="preserve">The dryer is empty.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D18B80">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Basement&#x000A;Not much going on here. Basically, the laundry room for you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
-    <children>
-      <child nodeId="node-0x02C292E0"/>
-    </children>
   </item>
-  <item nodeId="node-0x02C292E0">
+  <item nodeId="node-0x02D30568">
     <command xml:space="preserve">open washing machine</command>
-    <result xml:space="preserve">You open the washing machine.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You open the washing machine, revealing a powdered detergent.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C29350"/>
+      <child nodeId="node-0x02D304F8"/>
     </children>
   </item>
-  <item nodeId="node-0x02C29350">
-    <command xml:space="preserve">x washing machine</command>
-    <result xml:space="preserve">The washing machine is empty.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D304F8">
+    <command xml:space="preserve">enter washing machine</command>
+    <result xml:space="preserve">Oh look a box of powdered detergent&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x02C293C0"/>
+      <child nodeId="node-0x02D30728"/>
     </children>
   </item>
-  <item nodeId="node-0x02C293C0">
-    <command xml:space="preserve">upstairs</command>
-    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch here.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-0x02D30728">
+    <command xml:space="preserve">examine box</command>
+    <result xml:space="preserve">Oh look a normal box with stuff inside.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
