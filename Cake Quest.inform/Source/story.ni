@@ -12,7 +12,34 @@ When play begins:
 	say "You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need! You only have until 10:00 AM to find everything!".
 
 The Kitchen is a room.  The counter is a supporter in the Kitchen. The ingredients list is a thing on the counter. The description of the ingredients list is "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS". "An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room."
+A refrigerator is an openable and closed container in the kitchen. The description is "Very common item in kitchens."
+An egg carton is an openable and closed container in the refrigerator. The description is "[If closed]You found the eggs![otherwise]The eggs have been replaced with golf balls!?[end if]".
+Golf balls are a thing inside the egg carton. The description is "The golf balls you use when playing golf. Can't believe you replaced the eggs with them."
 
+After opening the refrigerator:
+	say "[if the player is carrying eggs]You see a pack of bread, juice, milk, ham, cheese, and a bunch of other items usually stocked in refrigerators. There also appear to be an egg carton in here but you already have eggs.[otherwise]You see a pack of bread, juice, milk, ham, cheese, and a bunch of other items usually stocked in refrigerators. There also appear to be an egg carton in here!";
+	
+Before taking the egg carton:
+	if the egg carton is closed:
+		say "You found the eggs. That almost seemed too easy.";
+	otherwise:
+		say "Maybe you shouldn't waste more time by taking it.";
+		stop the action
+		
+After opening the egg carton:
+	if the player is carrying eggs:
+		say "You already found the eggs. No surprise they're not in here.";
+	otherwise:
+		say "Of course the eggs aren't here! Instead you find golf balls. What? You think it'd be that easy?"
+		
+Before taking the golf balls:
+	say "You can go golfing later.";
+	stop the action
+	
+Before taking the refrigerator:
+	say "This is too heavy to take!";
+	stop the action
+	
 The Living Room is south of the Kitchen.  "The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement."
 The couch is a supporter in the Living Room.
 
@@ -67,6 +94,7 @@ The Backyard is south of the Living Room. "Nothing going on here. Maybe an ingre
 [Attic]
 
 The Attic is up from the Living Room. "Nothing going on here. Maybe an ingredient will be here later. Downstairs is the Living Room."
+Eggs is a thing in the Attic.
 
 [End Attic]
 
@@ -110,11 +138,11 @@ Before taking the powdered detergent:
 	stop the action
 	
 Before taking the washing machine:
-	say "It is too heavy to pick up!";
+	say "It is too heavy to take!";
 	stop the action
 	
 Before taking the dryer:
-	say "It is too heavy to pick up!";
+	say "It is too heavy to take!";
 	stop the action
 	
 Before entering the washing machine:		
