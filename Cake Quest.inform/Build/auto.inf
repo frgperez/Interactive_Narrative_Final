@@ -13291,8 +13291,8 @@ Array ActionHappened --> 0 0 0 0 0;
         ! [3: otherwise]
         } else {
 
-        ! [4: say ~Of course the eggs aren't here! Instead you find golf balls. What? You think it'd be that easy?~]
-        say__p=1;ParaContent(); print "Of course the eggs aren't here! Instead you find golf balls. What? You think it'd be that easy?"; new_line; .L_Say33; .L_SayX30;
+        ! [4: say ~Of course the eggs aren't here! Instead you find ping pong balls. What? You think it'd be that easy?~]
+        say__p=1;ParaContent(); print "Of course the eggs aren't here! Instead you find ping pong balls. What? You think it'd be that easy?"; new_line; .L_Say33; .L_SayX30;
         ! [5: end if]
         }
 

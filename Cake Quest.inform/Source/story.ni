@@ -41,7 +41,7 @@ After opening the egg carton:
 	if the player is carrying eggs:
 		say "You already found the eggs. No surprise they're not in here.";
 	otherwise:
-		say "Of course the eggs aren't here! Instead you find golf balls. What? You think it'd be that easy?"
+		say "Of course the eggs aren't here! Instead you find ping pong balls. What? You think it'd be that easy?"
 		
 Before taking the ping pong balls:
 	say "You can play ping pong later.";
