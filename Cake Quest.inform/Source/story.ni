@@ -15,8 +15,8 @@ When play begins:
 
 The Kitchen is a room.  The counter is a supporter in the Kitchen. The ingredients list is a thing on the counter. The description of the ingredients list is "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS. With all these items, you'll be able to >>MAKE THE CAKE<<.". "An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room."
 A refrigerator is an openable and closed container in the kitchen. The description is "Very common item in kitchens."
-An egg carton is an openable and closed container in the refrigerator. The description is "[If closed]You found the eggs![otherwise]The eggs have been replaced with golf balls!?[end if]".
-Golf balls are a thing inside the egg carton. The description is "The golf balls you use when playing golf. Can't believe you replaced the eggs with them."
+An egg carton is an openable and closed container in the refrigerator. The description is "[If closed]You found the eggs![otherwise]The eggs have been replaced with ping pong balls!?[end if]".
+Ping pong balls are a thing inside the egg carton. The description is "Ping pong balls. Can't believe you replaced the eggs with them. Hold on, do you even have a table for ping pong?"
 
 Carry out make:
 	if the player is in the kitchen:
@@ -43,8 +43,8 @@ After opening the egg carton:
 	otherwise:
 		say "Of course the eggs aren't here! Instead you find golf balls. What? You think it'd be that easy?"
 		
-Before taking the golf balls:
-	say "You can go golfing later.";
+Before taking the ping pong balls:
+	say "You can play ping pong later.";
 	stop the action
 	
 Before taking the refrigerator:
@@ -98,15 +98,28 @@ Before taking the bar of soap:
 
 [Backyard]
 
-The Backyard is south of the Living Room. "Nothing going on here. Maybe an ingredient will be here later. To the north is the Living Room." 
-Bag of salt is a thing in the backyard. The description is "One of the ingredients needed to make the cake (that's what Google said)."
+eggs are a thing.
+The Backyard is south of the Living Room. "There's nothing special about your backyard. Sometimes in your free time you enjoy practicing putting with your golf balls though. To the north is the Living Room." 
+A golf ball container is a closed, openable container in the backyard. golf balls are a thing in the golf ball container. The description is "Hold on, these are eggs!".
+After examining the golf balls:
+	now the golf balls are nowhere;
+	now eggs are in the golf ball container;
+Before taking the golf balls:
+	say "You can practice your putt-game later.";
+	stop the action;
 
 [End Backyard]
 
 [Attic]
 
 The Attic is up from the Living Room. "Nothing going on here. Maybe an ingredient will be here later. Downstairs is the Living Room."
-Eggs is a thing in the Attic. The description is "One of the ingredients needed to make the cake."
+A bag of rat poison is a thing in the attic. The description is "Wait a minute, this is salt! You nearly forgot you buy the stuff in bulk.". A bag of salt is a thing.
+After examining the bag of rat poison:
+	now the bag of rat poison is nowhere;
+	now a bag of salt is in the attic;
+Before taking the bag of rat poison:
+	say "That's the LAST thing you want in a cake!";
+	stop the action;
 
 [End Attic]
 
