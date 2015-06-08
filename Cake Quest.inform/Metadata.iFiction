@@ -11,6 +11,7 @@
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
             <firstpublished>2015</firstpublished>
+            <description>An IF7 game where you play as Pat the baker. Today you need to bake a cake. Unfortunately, your ingredients have gone missing. You have 1 hour to find all ingredients or suffer a dent into your culinary reputation.</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
@@ -23,7 +24,7 @@
         <releases>
             <attached>
                 <release>
-                    <releasedate>2015-06-07</releasedate>
+                    <releasedate>2015-06-08</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6L38</compilerversion>
@@ -33,10 +34,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6L38</generatorversion>
-            <originated>2015-06-07</originated>
+            <originated>2015-06-08</originated>
         </colophon>
         <glulx>
-            <serial>150607</serial>
+            <serial>150608</serial>
             <release>1</release>
             <compiler>Inform 7 build 6L38</compiler>
             <coverpicture>1</coverpicture>

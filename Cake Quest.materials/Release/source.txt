@@ -1,5 +1,7 @@
 "Cake Quest" by Jordan Hyman and Francisco Perez
 
+The story description is "An IF7 game where you play as Pat the baker. Today you need to bake a cake. Unfortunately, your ingredients have gone missing. You have 1 hour to find all ingredients or suffer a dent into your culinary reputation."
+
 understand "upstairs" as up.
 understand "downstairs" as down.
 Make is an action applying to nothing.
@@ -12,13 +14,15 @@ Every turn:
 	if the time of day is 10:00 AM:
 		end the story saying "You took too long finding the ingredients! The customer won't be happy."
 
-When play begins:
-	say "You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need! You only have until 10:00 AM to find everything!".
-
-The Kitchen is a room.  The counter is a supporter in the Kitchen. The ingredients list is a thing on the counter. The description of the ingredients list is "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS. With all these items, you'll be able to >>MAKE THE CAKE<<.". "An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room."
+The Kitchen is a room.  The counter is a supporter in the Kitchen. The ingredients list is a thing on the counter. The description of the ingredients list is "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS. With all these items, you'll be able to >>MAKE THE CAKE<<.". "[if didReadIntro is switched off]You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need! You only have until 10:00 AM to find everything! [end if]An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room."
 A refrigerator is an openable and closed container in the kitchen. The description is "Very common item in kitchens."
 An egg carton is an openable and closed container in the refrigerator. The description is "[If closed]It's an egg carton![otherwise]The eggs have been replaced with golf balls!?[end if]".
 Golf balls are a thing in the egg carton.
+didReadIntro is a device. It is switched off.
+
+Before going south:
+	if didReadIntro is switched off:
+		now didReadIntro is switched on;
 
 Carry out make:
 	if the player is in the kitchen:
@@ -106,7 +110,7 @@ Instead of taking the TV:
 After switching on the TV:
 	say "Cooking show on the Food Network is on. Maybe you shouldn't be watching TV right now."
 
-A bag of flour is a thing.
+A bag of flour is an edible thing.
 The left throw pillow is a thing on the couch. The description is "This isn't a throw pillow [if the player is carrying a bag of sugar] either![otherwise]at all![end if] It's actually a bag of flour!"
 After examining the left throw pillow:
 	now the left throw pillow is nowhere;
@@ -115,7 +119,7 @@ Before taking the left throw pillow:
 	say "You don't need a pillow to make a cake!";
 	stop the action;
 
-A bag of sugar is a thing.
+A bag of sugar is an edible thing.
 The right throw pillow is a thing on the couch. The description is "This isn't a throw pillow [if the player is carrying a bag of flour] either![otherwise]at all![end if] It's actually a bag of sugar!"
 After examining the right throw pillow:
 	now the right throw pillow is nowhere;
@@ -127,7 +131,7 @@ Before taking the right throw pillow:
 The Bedroom is west of the Living Room. "The Bedroom: a place to rest your head after a long day's work. To the east is the Living Room."
 The nightstand is a supporter in the Bedroom.
 
-A bottle of vanilla extract is a thing.
+A bottle of vanilla extract is an edible thing.
 The bottle of eyedrops is a thing on the nightstand. The description is "Upon closer inspection, you realized this is actually a bottle of vanilla extract!"
 After examining the bottle of eyedrops:
 	now the bottle of eyedrops is nowhere;
@@ -139,7 +143,7 @@ Before taking the bottle of eyedrops:
 The Bathroom is east of the Living Room. "The bathroom where you wash up and other bodily functions. To the west is the Living Room."
 The shower is a open container in the Bathroom.
 
-A stick of butter is a thing.
+A stick of butter is an edible thing.
 The bar of soap is a thing in the shower. The description is "This is really a stick of butter!"
 After examining the bar of soap:
 	now the bar of soap is nowhere;
@@ -147,6 +151,9 @@ After examining the bar of soap:
 Before taking the bar of soap:
 	say "Soap tastes awful. It has no place in your cake.";
 	stop the action;
+	
+Instead of taking shower:
+	say "You can't take that!"
 
 [Backyard]
 
@@ -217,7 +224,7 @@ After eating burnt sandwich:
 [Attic]
 
 The Attic is up from the Living Room. "Nothing going on here. Downstairs is the Living Room."
-A bag of rat poison is a thing in the attic. The description is "Wait a minute, this is salt! You nearly forgot you buy the stuff in bulk.". A bag of salt is a thing.
+A bag of rat poison is a thing in the attic. The description is "Wait a minute, this is salt! You nearly forgot you buy the stuff in bulk.". A bag of salt is an edible thing.
 After examining the bag of rat poison:
 	now the bag of rat poison is nowhere;
 	now a bag of salt is in the attic;
@@ -233,7 +240,7 @@ The Basement is down from the Living Room. "Not much going on here. Basically, y
 The washing machine is a closed, openable and enterable container. The washing machine is in the basement.
 The dryer is a closed, openable and enterable container. The dryer is in the basement.
 The powdered detergent is a thing in the washing machine. The description is "This is really a box of baking powder!"
-The baking powder is a thing. The description is "One of the ingredients needed to make the cake."
+The baking powder is an edible thing. The description is "One of the ingredients needed to make the cake."
 A pile of clothes is a thing inside the dryer.
 Understand "clothes" as pile of clothes.
 A table is a supporter in the basement.
@@ -279,6 +286,5 @@ Instead of taking a pile of clothes:
 	say "You should be more worried about finding the ingredients right now.";
 	
 [End Basement]
-	
-Release along with the source text, an interpreter, and a website.
+
 Release along with cover art, the source text, an interpreter, and a website.

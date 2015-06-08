@@ -4,10 +4,10 @@
   <activeNode nodeId="node-0x026D32B0"/>
   <item nodeId="node-0x026D32B0">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need! You only have until 10:00 AM to find everything!&#x000A;&#x000A;Cake Quest&#x000A;An Interactive Fiction by Jordan Hyman and Francisco Perez&#x000A;Release 1 / Serial number 150607 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room.&#x000A;&#x000A;You can see a counter and a refrigerator (closed) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Cake Quest&#x000A;An Interactive Fiction by Jordan Hyman and Francisco Perez&#x000A;Release 1 / Serial number 150608 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;You are Pat the Baker, a humble baker with a rather odd habit. In your sleep, it seems you occasionally sleepwalk. Not only that, but in your slumbering stride you seem to hide various ingredients throughout the house! It seems last night was one of those nights. How unlucky, considering you need to bake a cake today. You better search the house for everything you'll need! You only have until 10:00 AM to find everything! An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room.&#x000A;&#x000A;You can see a counter and a refrigerator (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">NO</temporary>
     <children>
       <child nodeId="node-0x026E7D28"/>
