@@ -151,8 +151,8 @@ The Backyard is south of the Living Room. "There's nothing special about your ba
 A golf ball container is a closed, openable container in the backyard. The description is "This is where you hold your golf balls. [if the egg carton is open]You did find golf balls in the egg carton...[end if]".
 Eggs are an edible thing in the golf ball container. The description is "One of the ingredients needed to make the cake."
 A grill is an enterable supporter in the backyard. The description is "A grill. Very useful during those backyard BBQs! You can put things in the grill container."
-An unopenable and closed container called grill container is a part of the grill. The description is "Put items in here in order to turn on grill."
-A burnt sandwich is a thing. The description is "Burnt ham and cheese sandwich. How did you manage to make this?!"
+A container called grill container is a part of the grill. The description is "Put items in here in order to turn on grill."
+A burnt sandwich is an edible a thing. The description is "Burnt ham and cheese sandwich. How did you manage to make this?!"
 Charcoal is a thing in the backyard. The description is "You can use this to turn on the grill."
 Lighter fluid is a thing in the backyard. The description is "You can use this to turn on the grill."
 Matches is a device on the grill. Matches are switched off. The description is "You can use this to turn on the grill."
@@ -170,8 +170,44 @@ Instead of taking the grill:
 	otherwise:
 		say "It is too heavy to take!"
 		
-After inserting:
-	say "test"
+Understand "match" as matches.
+		
+After inserting into grill container:
+	if charcoal:
+		say "You put the charcoal in. [if the player is carrying lighter fluid or the lighter fluid is in the backyard and the player is carrying matches or the matches are on the grill]All you need now is the lighter fluid and a lit up match![otherwise if the player is carrying lighter fluid or the lighter fluid is in the backyard]Now all you need is lighter fluid![otherwise if the player is carrying matches or the matches are on the grill]Now all you need is a lit up match![end if]";
+	if lighter fluid:
+		say "You put the lighter fluid in. [if the player is carrying charcoal or the charcoal is in the backyard and the player is carrying matches or the matches are on the grill]All you need now is the lighter fluid and a lit up match![otherwise if the player is carrying charcoal or the charcoal is in the backyard]Now all you need is charcoal![otherwise if the player is carrying matches or the matches are on the grill]Now all you need is a lit up match![end if]";
+	if switched off matches:
+		say "You put in a non lit up match. Maybe you should light it up.";
+	otherwise if switched on matches:
+		say "You put a lit up match in. [if the player is carrying charcoal or the charcoal is in the backyard and the player is carrying lighter fluid or the lighter fluid is in the backyard]All you need now is the charcoal and lighter fluid![otherwise if the player is carrying lighter fluid or the lighter fluid is in the backyard]Now all you need is lighter fluid![otherwise if the player is carrying charcoal or the charcoal is in the backyard]Now all you need is charcoal![end if]";
+	if lighter fluid is in the grill container and the charcoal is in the grill container and the matches are in the grill container and the matches are switched on:
+		say "The grill is now on!";
+		now the button is switched on;
+
+Before taking matches:
+	if matches are in the grill container and the matches are switched on:
+		say "You can't take them back.";
+		stop the action;
+		
+Before taking charcoal:
+	if charcoal is in the grill container:
+		say "You can't take it back.";
+		stop the action;
+		
+Before taking lighter fluid:
+	if the lighter fluid is in the grill container:
+		say "You can't take it back.";
+		stop the action
+		
+After putting sandwich on the grill:
+	if button is switched on:
+		say "You burned your sandwich!";
+		now the sandwich is nowhere;
+		now the player is carrying burnt sandwich.
+		
+After eating burnt sandwich:
+	say "You ate the sandwich even though it was burned. Weirdo."
 
 [End Backyard]
 
