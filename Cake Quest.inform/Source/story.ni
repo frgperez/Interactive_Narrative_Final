@@ -100,6 +100,9 @@ The couch is an enterable supporter in the Living Room.
 
 TV is a device in the living room. The TV is switched off. 
 
+Instead of taking the TV:
+	say "You don't need to take the TV!."
+
 After switching on the TV:
 	say "Cooking show on the Food Network is on. Maybe you shouldn't be watching TV right now."
 
@@ -239,36 +242,30 @@ The dryer sheets are in the box. The description is "You should use these when y
 The fabric softener is in the box. The description is "You should use this when you use the washing machine."
 The bottle of bleach is in the box. The description is "You should use this when washing white clothes only."
 
-Before taking the dryer sheets:
+Instead of taking the dryer sheets:
 	say "Now is not time for laundry.";
-	stop the action
 	
-Before taking the fabric softener:
+Instead of taking the fabric softener:
 	say "Now is not time for laundry.";
-	stop the action
 	
-Before taking the bottle of bleach:
+Instead of taking the bottle of bleach:
 	say "Now is not time for laundry.";
-	stop the action
-	
-Before taking the box:
+		
+Instead of taking the box:
 	say "[if the box is closed]Maybe what you need is inside. [end if]You don't need to take the whole box.";
-	stop the action
 
 After examining the powdered detergent:
 	now the powdered detergent is nowhere;
 	now the baking powder is in the washing machine;
-Before taking the powdered detergent:
+	
+Instead of taking the powdered detergent:
 	say "Now is not the time to do laundry.";
-	stop the action
 	
-Before taking the washing machine:
+Instead of taking the washing machine:
 	say "It is too heavy to take!";
-	stop the action
 	
-Before taking the dryer:
+Instead of taking the dryer:
 	say "It is too heavy to take!";
-	stop the action
 	
 Before entering the washing machine:		
 	say "[if the player is carrying baking powder]There doesn't seem to be any ingredients in this uncomfortable, tight space...[otherwise]Oh look a box of [end if][if the powdered detergent is in the washing machine]powdered detergent[otherwise if the baking powder is in the washing machine]baking powder. [end if]";
@@ -278,9 +275,8 @@ Before entering the dryer:
 	say "No room for you in there!";
 	stop the action
 	
-Before taking a pile of clothes:
+Instead of taking a pile of clothes:
 	say "You should be more worried about finding the ingredients right now.";
-	stop the action
 	
 [End Basement]
 	
