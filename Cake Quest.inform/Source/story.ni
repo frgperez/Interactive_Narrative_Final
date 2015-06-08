@@ -3,7 +3,9 @@
 understand "upstairs" as up.
 understand "downstairs" as down.
 Make is an action applying to nothing.
-understand "make the cake" as make.
+Sammich is an action applying to nothing.
+understand "make the cake", "make cake" as make.
+Understand "make sandwich" as sammich.
 
 Every turn:
 	say "[time of day]";
@@ -27,8 +29,49 @@ Carry out make:
 	otherwise:
 		say "You need to be in the kitchen to make the cake!"
 
+Bread is an edible thing in the refrigerator. The description is "Regular bread. Won't need it for the cake though."
+Juice carton is a thing in the refrigerator. The juice carton can be full, partly drained, or empty. The juice carton is full. The description is "Standard orange juice. Label says to drink by today!"
+Milk carton is a thing in the refrigerator. The milk carton can be full, partly drained, or empty. The milk is full. The description is "Low fat milk."
+Ham is an edible thing in the refrigerator. The description is "Can be used for a sandwich!"
+Cheese is an edible thing in the refrigerator. The description is "Can be used for a sandwich!"
+Understand "fridge" as refrigerator.
+Understand "juice" as juice carton.
+Sandwich is an edible thing. The description is "Ham and cheese sandwich. Perfect for a good lunch."
+
 After opening the refrigerator:
 	say "[if the player is carrying eggs]You see a pack of bread, juice, milk, ham, cheese, and a bunch of other items usually stocked in refrigerators. There also appear to be an egg carton in here but you already have eggs.[otherwise]You see a pack of bread, juice, milk, ham, cheese, and a bunch of other items usually stocked in refrigerators. There also appear to be an egg carton in here!";
+	
+Carry out sammich:
+	if ham is nowhere or cheese is nowhere or bread is nowhere:
+		say "You don't have the ingredients to make a sandwich.";
+	otherwise:
+		now ham is nowhere;
+		now cheese is nowhere;
+		now bread is nowhere;
+		now the player is carrying a sandwich;
+		say "You have successfully made a sandwich!";
+	
+Instead of drinking the juice carton:
+	if the juice carton is partly drained: 
+		now the juice carton is empty; 
+		say "You drank some juice. The carton is now empty.";
+	otherwise if the juice carton is full: 
+		now the juice carton is partly drained; 
+		say "You drank some juice. It is now partly drained.";
+	otherwise if the juice carton is empty:
+		say "No more juice.";
+		stop the action;
+		
+Instead of drinking the milk carton:
+	if the milk carton is partly drained: 
+		now the milk carton is empty; 
+		say "You drank some milk. The carton is now empty.";
+	otherwise if the milk carton is full: 
+		now the milk carton is partly drained; 
+		say "You drank some milk. It is now partly drained.";
+	otherwise if the milk carton is empty:
+		say "No more milk.";
+		stop the action;
 	
 Before taking the egg carton:
 	if the egg carton is closed:
