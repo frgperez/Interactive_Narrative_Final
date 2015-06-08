@@ -567,7 +567,7 @@
   </item>
   <item nodeId="node-0x026E9D68">
     <command xml:space="preserve">south</command>
-    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) here.&#x000A;&#x000A;9:00 am&#x000A;&gt;</result>
+    <result xml:space="preserve">Living Room&#x000A;The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement.&#x000A;&#x000A;You can see a couch (on which are a left throw pillow and a right throw pillow) and TV here.&#x000A;&#x000A;9:00 am&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>

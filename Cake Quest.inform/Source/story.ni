@@ -17,8 +17,8 @@ When play begins:
 
 The Kitchen is a room.  The counter is a supporter in the Kitchen. The ingredients list is a thing on the counter. The description of the ingredients list is "A note which reads: FLOUR, SUGAR, VANILLA, BUTTER, BAKING POWDER, SALT, EGGS. With all these items, you'll be able to >>MAKE THE CAKE<<.". "An ordinary kitchen, just like any other. Inside are all the tools necessary to bake a cake. Too bad the necessary ingredients aren't here as well. To the south is the Living Room."
 A refrigerator is an openable and closed container in the kitchen. The description is "Very common item in kitchens."
-An egg carton is an openable and closed container in the refrigerator. The description is "[If closed]You found the eggs![otherwise]The eggs have been replaced with ping pong balls!?[end if]".
-Ping pong balls are a thing inside the egg carton. The description is "Ping pong balls. Can't believe you replaced the eggs with them. Hold on, do you even have a table for ping pong?"
+An egg carton is an openable and closed container in the refrigerator. The description is "[If closed]It's an egg carton![otherwise]The eggs have been replaced with golf balls!?[end if]".
+Golf balls are a thing in the egg carton.
 
 Carry out make:
 	if the player is in the kitchen:
@@ -36,6 +36,7 @@ Ham is an edible thing in the refrigerator. The description is "Can be used for 
 Cheese is an edible thing in the refrigerator. The description is "Can be used for a sandwich!"
 Understand "fridge" as refrigerator.
 Understand "juice" as juice carton.
+Understand "milk" as milk carton.
 Sandwich is an edible thing. The description is "Ham and cheese sandwich. Perfect for a good lunch."
 
 After opening the refrigerator:
@@ -84,10 +85,10 @@ After opening the egg carton:
 	if the player is carrying eggs:
 		say "You already found the eggs. No surprise they're not in here.";
 	otherwise:
-		say "Of course the eggs aren't here! Instead you find ping pong balls. What? You think it'd be that easy?"
+		say "Of course the eggs aren't here! Instead you find golf balls. What? You think it'd be that easy?"
 		
-Before taking the ping pong balls:
-	say "You can play ping pong later.";
+Before taking the golf balls:
+	say "You can play golf later.";
 	stop the action
 	
 Before taking the refrigerator:
@@ -95,7 +96,12 @@ Before taking the refrigerator:
 	stop the action
 	
 The Living Room is south of the Kitchen.  "The Living Room is a place of relaxation for you. Within you can see your comfortable couch and your big-screen TV. To the north is the Kitchen, to the east is the Bathroom, to the west is the Bedroom, to the south is the Backyard, upstairs is the Attic, and downstairs is the Basement."
-The couch is a supporter in the Living Room.
+The couch is an enterable supporter in the Living Room.
+
+TV is a device in the living room. The TV is switched off. 
+
+After switching on the TV:
+	say "Cooking show on the Food Network is on. Maybe you shouldn't be watching TV right now."
 
 A bag of flour is a thing.
 The left throw pillow is a thing on the couch. The description is "This isn't a throw pillow [if the player is carrying a bag of sugar] either![otherwise]at all![end if] It's actually a bag of flour!"
@@ -141,21 +147,37 @@ Before taking the bar of soap:
 
 [Backyard]
 
-eggs are a thing.
 The Backyard is south of the Living Room. "There's nothing special about your backyard. Sometimes in your free time you enjoy practicing putting with your golf balls though. To the north is the Living Room." 
-A golf ball container is a closed, openable container in the backyard. golf balls are a thing in the golf ball container. The description is "Hold on, these are eggs!".
-After examining the golf balls:
-	now the golf balls are nowhere;
-	now eggs are in the golf ball container;
-Before taking the golf balls:
-	say "You can practice your putt-game later.";
-	stop the action;
+A golf ball container is a closed, openable container in the backyard. The description is "This is where you hold your golf balls. [if the egg carton is open]You did find golf balls in the egg carton...[end if]".
+Eggs are an edible thing in the golf ball container. The description is "One of the ingredients needed to make the cake."
+A grill is an enterable supporter in the backyard. The description is "A grill. Very useful during those backyard BBQs! You can put things in the grill container."
+An unopenable and closed container called grill container is a part of the grill. The description is "Put items in here in order to turn on grill."
+A burnt sandwich is a thing. The description is "Burnt ham and cheese sandwich. How did you manage to make this?!"
+Charcoal is a thing in the backyard. The description is "You can use this to turn on the grill."
+Lighter fluid is a thing in the backyard. The description is "You can use this to turn on the grill."
+Matches is a device on the grill. Matches are switched off. The description is "You can use this to turn on the grill."
+Button is a device. It is switched off.
+
+After opening the golf ball container:
+	if egg carton is open:
+		say "You found the eggs! Turns out you moved switched the eggs with the golf balls.";
+	otherwise:
+		say "You found the eggs!"
+		
+Instead of taking the grill:
+	if the grill is switched on:
+		say "Ouch! You burned yourself!";
+	otherwise:
+		say "It is too heavy to take!"
+		
+After inserting:
+	say "test"
 
 [End Backyard]
 
 [Attic]
 
-The Attic is up from the Living Room. "Nothing going on here. Maybe an ingredient will be here later. Downstairs is the Living Room."
+The Attic is up from the Living Room. "Nothing going on here. Downstairs is the Living Room."
 A bag of rat poison is a thing in the attic. The description is "Wait a minute, this is salt! You nearly forgot you buy the stuff in bulk.". A bag of salt is a thing.
 After examining the bag of rat poison:
 	now the bag of rat poison is nowhere;
@@ -180,7 +202,6 @@ A box is an openable and closed container on the table. The description is "[if 
 The dryer sheets are in the box. The description is "You should use these when you use the dryer."
 The fabric softener is in the box. The description is "You should use this when you use the washing machine."
 The bottle of bleach is in the box. The description is "You should use this when washing white clothes only."
-
 
 Before taking the dryer sheets:
 	say "Now is not time for laundry.";
