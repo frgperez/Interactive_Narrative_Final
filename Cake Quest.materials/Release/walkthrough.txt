@@ -1,0 +1,28 @@
+(Optional) Take list
+x right pillow
+take flour
+x left pillow
+take sugar
+e
+x bar of soap
+take butter
+w
+w
+x eyedrops
+take bottle of vanilla
+e
+s
+open golf ball container
+take eggs
+n
+up
+x rat poison
+take salt
+down
+down
+open washing machine
+x detergent
+take baking powder
+up
+n
+make cake
